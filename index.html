@@ -24,6 +24,7 @@
 								<h1>Fergus Donnan</h1>
 								
 								<p>Postdoctoral Fellow, University of California San Diego, CA, USA</p>
+								<a href="CV.pdf">CV</a>
 								<p><a href="mailto:fdonnan@ucsd.edu">fdonnan@ucsd.edu</a></p>
 
 							</div>
@@ -46,7 +47,8 @@
 							<article id="intro">
 								<h2 class="major">About Me</h2>
 								<img src="images/Portrait Photo.jpg" alt="" style="width: 30%; height: auto; float: right; margin-left: 20px; margin-bottom: 10px;" />
-								<p>I am an observational astrophysicist that studies galaxy evolution with a focus on dust/PAHs in star forming galaxies and Active Galactic Nuclei (AGN), utilizing JWST observations in both the local universe and at cosmic noon. I am a member of the Galactic Activity Torus and Outflow Survey (<a href="https://gatos.myportfolio.com/">GATOS</a>) collaboration working on dust around local AGN while my work at cosmic noon is part of the <a href="https://aspecs.info/">PAHSPECS</a> collaboration. My CV/resume is available <a href="CV.pdf">here</a>.</p>
+								<p>I am currently a postdoc at UCSD working with Karin Sandstrom. 
+									I am an observational astrophysicist that studies galaxy evolution with a focus on dust/PAHs in star forming galaxies and Active Galactic Nuclei (AGN), utilizing JWST observations in both the local universe and at cosmic noon. I am a member of the Galactic Activity Torus and Outflow Survey (<a href="https://gatos.myportfolio.com/">GATOS</a>) collaboration working on dust around local AGN while my work at cosmic noon is part of the <a href="https://aspecs.info/">PAHSPECS</a> collaboration. My CV/resume is available <a href="CV.pdf">here</a>.</p>
 								<p> <b> Research Positions </b>
 								<br> Postdoctoral Fellow, University of California San Diego, CA, USA (2025 - Present)
 							 	<br>Postdoc University of Oxford (2025-2025) </p>
@@ -63,7 +65,7 @@
 							<article id="work">
 								<h2 class="major">Research</h2>
 								<p><a><b>Polycyclic Aromatic Hydrocarbons (PAHs) across cosmic time.</b></a>
-									<br>PAHs are molecules comprised of rings of carbon atoms and are ubiquitous in the interstellar medium (ISM) of galaxies. They are excited by UV photons from young stars which re-emit as broad emission features in the mid-infrared and thus are great diagnositcs of dust properties. In the local universe, using my spectral decomposition code, we have found PAHs to be altered by AGN, particularly in outflow regions (García-Bernete+24c, Rigopoulou+24) where PAHs appear more neutral. At cosmic noon, I am using MIRI spectroscopy from the PAHSPECS program to produce spatially resolved maps of PAH ratios at cosmic noon for the first time. The below figure shows an example where PAHs appear to become more neutral/larger with radius, the opposite of local galaxies. </p>
+									<br>PAHs are molecules comprised of rings of carbon atoms and are ubiquitous in the interstellar medium (ISM) of galaxies. They are excited by UV photons from young stars which re-emit as broad emission features in the mid-infrared and thus are great diagnositcs of dust properties. In the local universe, using my spectral decomposition code, we have found PAHs to be altered by AGN, particularly in outflow regions (<a href="https://ui.adsabs.harvard.edu/abs/2024A%26A...691A.162G/abstract">García-Bernete+24c</a>, <a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1598R/abstract">Rigopoulou+24</a>) where PAHs appear more neutral. At cosmic noon, I am using MIRI spectroscopy from the PAHSPECS program to produce spatially resolved maps of PAH ratios at cosmic noon for the first time. The below figure shows an example where PAHs appear to become more neutral/larger with radius, the opposite of local galaxies. </p>
 								</p>
 								<span class="image main"><img src="images/PAHSPECS.jpg" alt="" /></span>
 
@@ -87,9 +89,8 @@
 								<p><a><b>Infrared Spectral Decomposition</b></a>
 									<br> I have built a spectral decomposition tool for near/mid-infrared JWST spectra which is able to fit a variety of kinds of spectra, from simple star-forming regions to AGN and highly obscured regions. This allows one to extract accurate PAH fluxes as well as infer the nature of the obscuring dust via the inferred 2D dust distribution of extinction and temperature. Below is an example fitting to a variety of different spectra from the GOALS ERS program. 
 
-
-
 								</p>
+								<p>The code is easy to run with an interactive GUI where various different options can be selected such as the extinction curve, ice templates and the fitting method.</p>
 							<span class="image main"><img src="images/Demo_Fig.png" alt="" /></span>
 								<p><a><b> <a href="https://github.com/FergusDonnan/PyROA">PyROA - Modelling AGN Lightcurves</a></b></a>
 									<br>PyROA is a tool for modelling quasar lightcurves (<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.5449D/abstract">Donnan et al. 2021</a>) where the variability is described using a running optimal average (ROA), and paramters are sampled using Markov Chain Monte Carlo (MCMC) techniques - specifically using emcee. Using a Bayesian approach, priors can be used on the sampled parameters. It can also intercalibrate same-filter ligthcurves from different telescopes and adjust their uncertainties accordingly ( <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.523..545D/abstract">Donnan et al. 2023</a>). Currently it has three main uses:
