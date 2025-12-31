@@ -86,12 +86,14 @@
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">Software</h2>
-								<p><a><b>Infrared Spectral Decomposition</b></a>
-									<br> I have built a spectral decomposition tool for near/mid-infrared JWST spectra which is able to fit a variety of kinds of spectra, from simple star-forming regions to AGN and highly obscured regions. This allows one to extract accurate PAH fluxes as well as infer the nature of the obscuring dust via the inferred 2D dust distribution of extinction and temperature. Below is an example fitting to a variety of different spectra from the GOALS ERS program. 
+								<p><a><b> <a href="https://github.com/FergusDonnan/SPIRIT">SPIRIT - SPectral InfraRed Inference Tool</a></b></a>
+									<br> I have built a spectral decomposition tool for near/mid-infrared JWST spectra which is able to fit a variety of kinds of spectra, from simple star-forming regions to AGN and highly obscured regions. This allows one to extract accurate PAH fluxes as well as infer the nature of the obscuring dust via the inferred 2D dust distribution of extinction and temperature. Below is an example fitting to a variety of different spectra from the GOALS ERS program as well as the GUI to easily fit spectra. The code is publically available <a href="https://github.com/FergusDonnan/SPIRIT">here</a>. 
 
 								</p>
 								<p>The code is easy to run with an interactive GUI where various different options can be selected such as the extinction curve, ice templates and the fitting method.</p>
 							<span class="image main"><img src="images/Demo_Fig.png" alt="" /></span>
+							<span class="image main"><img src="images/GUI.png" alt="" /></span>
+
 								<p><a><b> <a href="https://github.com/FergusDonnan/PyROA">PyROA - Modelling AGN Lightcurves</a></b></a>
 									<br>PyROA is a tool for modelling quasar lightcurves (<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.5449D/abstract">Donnan et al. 2021</a>) where the variability is described using a running optimal average (ROA), and paramters are sampled using Markov Chain Monte Carlo (MCMC) techniques - specifically using emcee. Using a Bayesian approach, priors can be used on the sampled parameters. It can also intercalibrate same-filter ligthcurves from different telescopes and adjust their uncertainties accordingly ( <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.523..545D/abstract">Donnan et al. 2023</a>). Currently it has three main uses:
 								<ol>
